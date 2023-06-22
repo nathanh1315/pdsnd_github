@@ -1,8 +1,8 @@
+# Project Title
+Explore US Bikeshare Data
+
 ### Date created
 This project and _README_ file were created on 6/22/2023. The bikeshare code was created in May of 2023.
-
-### Project Title
-Bikeshare
 
 ### Description
 This code is used to analyze bikeshare data in US cities. The user can select what data they want to see, and the output will be based on these selections.
