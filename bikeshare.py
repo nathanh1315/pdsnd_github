@@ -19,7 +19,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington). 
     valid_city = CITY_DATA.keys()
     city=''
     while city not in valid_city:
@@ -114,15 +114,15 @@ def load_data(city, month, day):
     #Initialize variable i for indexing datafram
     i=0
     #Use this in input statement to print first for first 5 lines and next after that
-    first_last = 'first'
+    first_next = 'first'
 
     #Keep asking unitil the answer is no or there is no data left
     while see_data != 'no':
-        see_data = input('Would you like to see the {} 5 lines of raw data? Answer "Yes" or "No" '.format(first_last)).lower()
+        see_data = input('Would you like to see the {} 5 lines of raw data? Answer "Yes" or "No" '.format(first_next)).lower()
         if see_data == 'yes':
             print(df.iloc[i:i+5])
             i=i+5
-            first_last = 'next'
+            first_next = 'next'
         elif see_data == 'no':
             print('Okay! Please see below for statistics about the data selected')
             break
@@ -231,7 +231,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+# Asks user if they want to restart code or not. If no, breaks and ends run. If yes, restarts code
 def main():
     while True:
         city, month, day = get_filters()
