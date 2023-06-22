@@ -231,7 +231,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+# Asks user if they want to restart code or not. If no, breaks and ends run. If yes, restarts code
 def main():
     while True:
         city, month, day = get_filters()
