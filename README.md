@@ -1,17 +1,15 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+This project and README file were created on 6/22/2023. The bikeshare code was created in May of 2023.
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+This code is used to analyze bikeshare data in US cities. The user can select what data they want to see, and the output will be based on these selections.
 
 ### Files used
-Include the files used
+Files include bikeshare.py, the python code that is run to get the data. There is also a .gitignore file that contains the csv data files.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Bikeshare was inspired by Udacity, and the project was forked from https://github.com/udacity/pdsnd_github.
